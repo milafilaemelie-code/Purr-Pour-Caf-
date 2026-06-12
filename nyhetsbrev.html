@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gå med i vår VIP-Klubb | Purr & Pour Café</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">🐱 Purr & Pour</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="produkt-1.html">Boka Tid</a></li>
+                <li><a href="produkt-2.html">Katt-Yoga</a></li>
+                <li><a href="nyhetsbrev.html" class="active">Nyhetsbrev</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container single-column-form">
+        <section class="form-card-centered">
+            <h1>Håll dig uppdaterad (VIP)</h1>
+            <p>Vill du veta när vi får in nya katter för adoption, få exklusiva rabatter på katt-yogan och inbjudningar till VIP-kvällar? Skriv upp dig på vårt nyhetsbrev!</p>
+            
+            <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=600&q=80" alt="Söt katt med solglasögon" class="form-image">
+
+            <form action="thank-you.html" method="GET" id="newsletter-form">
+                <div class="form-group">
+                    <label for="newsletter-email">E-postadress</label>
+                    <input type="email" id="newsletter-email" name="email" required placeholder="din.bästa.mejl@gmail.com">
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="gdpr" name="gdpr" required>
+                    <label for="gdpr">Jag godkänner att Purr & Pour hanterar min e-post enligt GDPR.</label>
+                </div>
+                <button type="submit" class="cta-button full-width">Prenumerera nu</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Purr & Pour Café. Kursmodul: Analys och effektmätning.</p>
+    </footer>
+
+</body>
+</html>

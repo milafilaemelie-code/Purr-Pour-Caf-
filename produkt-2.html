@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katt-Yoga | Purr & Pour Café</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">🐱 Purr & Pour</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="produkt-1.html">Boka Tid</a></li>
+                <li><a href="produkt-2.html" class="active">Katt-Yoga</a></li>
+                <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container page-layout">
+        <section class="content-side">
+            <h1>Katt-Yoga (Purrfect Stretch)</h1>
+            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=800&q=80" alt="Katt på yogamatta" class="featured-image">
+            <p>Vår populära katt-yoga kombinerar mjuk Vinyasa-flow med katternas lugna energi. Katterna rör sig fritt i rummet under passet, sätter sig på din matta eller lägger sig på din rygg under barnets position.</p>
+            <p>Perfekt för stressreducering, rörlighet och mindfulness.</p>
+            <h3>Tid & Pris</h3>
+            <p><strong>Pris:</strong> 295 kr per pass (inkl. smoothie efteråt).<br><strong>Tid:</strong> Varje tisdag och torsdag kl. 18:00.</p>
+        </section>
+
+        <section class="form-side">
+            <div class="form-wrapper">
+                <h2>Köp Yogapass</h2>
+                <p>Anmäl dig till nästa lediga pass. Begränsat till 10 deltagare per tillfälle.</p>
+                
+                <form action="thank-you.html" method="GET" id="yoga-form">
+                    <div class="form-group">
+                        <label for="yoga-name">Namn</label>
+                        <input type="text" id="yoga-name" name="name" required placeholder="För- och efternamn">
+                    </div>
+                    <div class="form-group">
+                        <label for="yoga-email">E-postadress</label>
+                        <input type="email" id="yoga-email" name="email" required placeholder="namn@företag.se">
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Tidigare yoga-erfarenhet</label>
+                        <select id="experience" name="experience">
+                            <option value="nyborjare">Nybörjare</option>
+                            <option value="medel">Erfaren</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="cta-button full-width">Köp och boka pass</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Purr & Pour Café. Kursmodul: Analys och effektmätning.</p>
+    </footer>
+
+</body>
+</html>
